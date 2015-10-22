@@ -14,7 +14,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container, .team-container {
+.container, .team-container, .about {
     display: flex;
 }
 
@@ -47,4 +47,22 @@ article {
 .team-member .img-responsive {
     border-radius: 100%;
     border: 3px solid azure;
+}
+
+.about .img-responsive {
+    border-radius: 25px;
+    border: 3px solid azure;
+    width: 200px;
+}
+
+.read-more {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+figcaption {
+    text-align: center;
 }
