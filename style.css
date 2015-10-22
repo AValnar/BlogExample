@@ -4,17 +4,21 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #333333;
+}
+
 body {
     background: #ffffff;
     color: #333333;
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+.container, .team-container {
     display: flex;
 }
 
-.cell {
+.cell, .team-member {
     flex: 1;
 }
 
@@ -38,4 +42,9 @@ article {
     width: 100%;
     vertical-align: middle;
     border: 0 none;
+}
+
+.team-member .img-responsive {
+    border-radius: 100%;
+    border: 3px solid azure;
 }
